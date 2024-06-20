@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8CEFF"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:background="#ACF691"
+            android:padding="30dp"
+            android:text="@string/text_one"
+            android:textColor="@color/black"
+            android:textSize="100sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#8CF6F2"
+            android:padding="30dp"
+            android:text="@string/text_two"
+            android:textColor="@color/black"
+            android:textSize="100sp"
+            android:layout_marginTop="100dp"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:background="#F6F193"
+            android:padding="30dp"
+            android:text="@string/text_three"
+            android:textColor="@color/black"
+            android:textSize="100sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="1463dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="100dp"
+            android:background="#F895B4"
+            android:padding="30dp"
+            android:text="@string/text_four"
+            android:textColor="@color/black"
+            android:textSize="100sp" />
+
+    </LinearLayout>
+
+</ScrollView >
